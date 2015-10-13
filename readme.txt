@@ -4,8 +4,13 @@ Contributors: christophherr
 Donate link: https://www.christophherr.com/donate/
 Tags: woothemes sensei, woothemes, genesis, genesis connect, studiopress
 Requires at least: 4.1
+<<<<<<< HEAD
 Tested up to: 4.4
 Stable tag: 1.0.3
+=======
+Tested up to: 4.3
+Stable tag: 1.0.1
+>>>>>>> clean up git
 License: GPL-2.0+
 License URI: http://www.gnu.org/licenses/gpl-2.0.txt
 
@@ -15,9 +20,11 @@ This plugin integrates the Genesis Framework from Studiopress with the Woothemes
 
 This plugin uses code taken from https://support.woothemes.com/hc/en-us/articles/204428855-StudioPress-Genesis.
 
-You will need the Woothemes Sensei plugin (http://www.woothemes.com/products/sensei/) and the Genesis Framework and/or one of its child themes (http://www.studiopress.com).
+You will need the Woothemes Sensei plugin (http://www.woothemes.com/products/sensei/) 
+and the Genesis Framework and/or one of its child themes (http://www.studiopress.com).
 
-In other words, if you are not trying to integrate the Woothemes Sensei plugin with the Genesis Framework and/or one of its child themes, this plugin is pretty much useless for you...
+In other words, if you are not trying to integrate the Woothemes Sensei plugin with the Genesis Framework 
+and/or one of its child themes, this plugin is pretty much useless for you...
 
 This plugin will only work (i.e. activate) with the Genesis Framework and its child themes.
 
@@ -28,7 +35,7 @@ This plugin will only work (i.e. activate) with the Genesis Framework and its ch
 
 Alternatively, you can
 
-1. Click on 'Add new' in the 'Plugins' menu
+1. Click on 'Add new" in the 'Plugins' menu
 2. Type (or copy and paste) the name of this plugin into the search box
 3. Click on 'Install Now'
 
@@ -48,10 +55,11 @@ No. You simply activate the plugin and the necessary wrappers are inserted into 
 
 = How can I change how the plugin works? =
 
-There are no settings and no settings screen. You would have to change the code directly in the source.
+There are no settings and no settings screen. You would have to change the code directly in the source 
 
 == Changelog ==
 
+<<<<<<< HEAD
 = 1.0.3 =
 
 * Corrected oversight in original code. First closing tag should be `</main>` instead of `</div>`
@@ -61,6 +69,8 @@ see: http://cobaltapps.com/forum/forum/main-category/main-forum/81542-woo-sensei
 
 * POT file added
 
+=======
+>>>>>>> clean up git
 = 1.0.1 =
 
 * Loading textdomain for i18n
@@ -71,6 +81,7 @@ see: http://cobaltapps.com/forum/forum/main-category/main-forum/81542-woo-sensei
 
 == Upgrade Notice ==
 
+<<<<<<< HEAD
 = 1.0.3 =
 
 This version corrects an oversight in the original code
@@ -83,3 +94,8 @@ This version adds a POT file for translations.
 = 1.0.1 =
 
 This version loads the textdomain to enable translations.
+=======
+= 1.0.1 =
+
+This version loads the textdomain to enable translations
+>>>>>>> clean up git
