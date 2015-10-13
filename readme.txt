@@ -23,8 +23,31 @@ and/or one of its child themes, this plugin is pretty much useless for you...
 
 This plugin will only work (i.e. activate) with the Genesis Framework and its child themes.
 
-== Instructions ==
+== Installation ==
 
-Simply install and activate the plugin.
+1. Upload the entire `Genesis-Connect-for-Woothemes-Sensei` folder to your `/wp-content/plugins` directory.
+2. Activate the plugin through the 'Plugins' menu in WordPress.
 
-There are no settings and no settings screen.
+== Frequently Asked Questions ==
+
+= Does this work with any WordPress theme? =
+
+No. This plugin only works with the Genesis Framework and its child themes.
+
+= Does this work with any Genesis child theme? =
+
+Yes and no. Technically, it does, even older (XHTML) themes. However, depending on other factors such as the individual theme's styling and layout, the output may be unexpected, and require some tweaking.
+
+= Are there any settings? =
+
+No. You simply activate the plugin and the necessary wrappers are inserted into your Genesis child theme.
+
+= How can I change how the plugin works? =
+
+There are no settings and no settings screen. You would have to change the code directly in the source files.
+
+== Changelog ==
+
+= 1.0 =
+
+* Initial release on Github
