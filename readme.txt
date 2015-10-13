@@ -15,11 +15,9 @@ This plugin integrates the Genesis Framework from Studiopress with the Woothemes
 
 This plugin uses code taken from https://support.woothemes.com/hc/en-us/articles/204428855-StudioPress-Genesis.
 
-You will need the Woothemes Sensei plugin (http://www.woothemes.com/products/sensei/) 
-and the Genesis Framework and/or one of its child themes (http://www.studiopress.com).
+You will need the Woothemes Sensei plugin (http://www.woothemes.com/products/sensei/) and the Genesis Framework and/or one of its child themes (http://www.studiopress.com).
 
-In other words, if you are not trying to integrate the Woothemes Sensei plugin with the Genesis Framework 
-and/or one of its child themes, this plugin is pretty much useless for you...
+In other words, if you are not trying to integrate the Woothemes Sensei plugin with the Genesis Framework and/or one of its child themes, this plugin is pretty much useless for you...
 
 This plugin will only work (i.e. activate) with the Genesis Framework and its child themes.
 
@@ -50,7 +48,7 @@ No. You simply activate the plugin and the necessary wrappers are inserted into 
 
 = How can I change how the plugin works? =
 
-There are no settings and no settings screen. You would have to change the code directly in the source 
+There are no settings and no settings screen. You would have to change the code directly in the source.
 
 == Changelog ==
 
