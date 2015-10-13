@@ -5,7 +5,7 @@
  * Description: Plugin wrapper to easily integrate the Woothemes Sensei plugin with the Genesis Framework. This plugin will only work with the Genesis Framework and its child themes.
  * Author:      Christoph Herr
  * Author URI:	http://www.christophherr.com
- * Version:     1.0.1
+ * Version:     1.0.2
  * Text Domain: genesis-connect-for-woothemes-sensei
  * Domain Path: /languages
  * License:     GPL-2.0+
@@ -13,7 +13,7 @@
  *
  * @package   GenesisConnectforWoothemesSensei
  * @author    Christoph Herr
- * @version   1.0.1
+ * @version   1.0.2
  * @license   GPL-2.0+
  *
  * Genesis Connect for Woothemes Sensei is free software: you can redistribute it and/or modify

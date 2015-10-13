@@ -1,0 +1,47 @@
+# Copyright (C) 2015 Genesis Connect for Woothemes Sensei
+# This file is distributed under the same license as the Genesis Connect for Woothemes Sensei package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Genesis Connect for Woothemes Sensei 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/genesis-connect-"
+"for-woothemes-sensei\n"
+"POT-Creation-Date: 2015-10-13 03:35:28+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: genesis-connect-for-woothemes-sensei.php:35
+msgid "Sorry, you are not allowed to access this page directly."
+msgstr ""
+
+#: genesis-connect-for-woothemes-sensei.php:77
+msgid ""
+"Sorry, you can't use the Genesis Connect for Woothemes Sensei Plugin unless "
+"the <a href=\"%s\">Geneis Framework</a> is active. The plugin has been "
+"deactivated."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Genesis Connect for Woothemes Sensei"
+msgstr ""
+
+#. #-#-#-#-#  plugin.pot (Genesis Connect for Woothemes Sensei 1.0.1)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  plugin.pot (Genesis Connect for Woothemes Sensei 1.0.1)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://www.christophherr.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Plugin wrapper to easily integrate the Woothemes Sensei plugin with the "
+"Genesis Framework. This plugin will only work with the Genesis Framework and "
+"its child themes."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Christoph Herr"
+msgstr ""
