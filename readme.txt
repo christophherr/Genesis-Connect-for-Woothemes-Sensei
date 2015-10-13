@@ -5,7 +5,7 @@ Donate link: https://www.christophherr.com/donate/
 Tags: woothemes sensei, woothemes, genesis, genesis connect, studiopress
 Requires at least: 4.1
 Tested up to: 4.3
-Stable tag: 1.0
+Stable tag: 1.0.1
 License: GPL-2.0+
 License URI: http://www.gnu.org/licenses/gpl-2.0.txt
 
@@ -44,10 +44,20 @@ No. You simply activate the plugin and the necessary wrappers are inserted into 
 
 = How can I change how the plugin works? =
 
-There are no settings and no settings screen. You would have to change the code directly in the source files.
+There are no settings and no settings screen. You would have to change the code directly in the source 
 
 == Changelog ==
+
+= 1.0.1 =
+
+* Loading textdomain for i18n
 
 = 1.0 =
 
 * Initial release on Github
+
+== Upgrade Notice ==
+
+= 1.0.1 =
+
+This version loads the textdomain to enable translations
