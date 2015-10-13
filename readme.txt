@@ -28,6 +28,12 @@ This plugin will only work (i.e. activate) with the Genesis Framework and its ch
 1. Upload the entire `Genesis-Connect-for-Woothemes-Sensei` folder to your `/wp-content/plugins` directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 
+Alternatively, you can
+
+1. Click on 'Add new" in the 'Plugins' menu
+2. Type (or copy and paste) the name of this plugin into the search box
+3. Click on 'Install Now'
+
 == Frequently Asked Questions ==
 
 = Does this work with any WordPress theme? =
