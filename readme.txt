@@ -5,7 +5,11 @@ Donate link: https://www.christophherr.com/donate/
 Tags: woothemes sensei, woothemes, genesis, genesis connect, studiopress
 Requires at least: 4.1
 Tested up to: 4.3
+<<<<<<< HEAD
 Stable tag: 1.0.2
+=======
+Stable tag: 1.0.1
+>>>>>>> b538b62a27e15b7cf8904fadd17ea3e847f189df
 License: GPL-2.0+
 License URI: http://www.gnu.org/licenses/gpl-2.0.txt
 
@@ -48,10 +52,13 @@ There are no settings and no settings screen. You would have to change the code 
 
 == Changelog ==
 
+<<<<<<< HEAD
 = 1.0.2 =
 
 * POT file added
 
+=======
+>>>>>>> b538b62a27e15b7cf8904fadd17ea3e847f189df
 = 1.0.1 =
 
 * Loading textdomain for i18n
@@ -62,6 +69,7 @@ There are no settings and no settings screen. You would have to change the code 
 
 == Upgrade Notice ==
 
+<<<<<<< HEAD
 = 1.0.2 =
 
 This version adds a POT file for translations.
@@ -69,3 +77,8 @@ This version adds a POT file for translations.
 = 1.0.1 =
 
 This version loads the textdomain to enable translations.
+=======
+= 1.0.1 =
+
+This version loads the textdomain to enable translations
+>>>>>>> b538b62a27e15b7cf8904fadd17ea3e847f189df
