@@ -37,7 +37,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /**
  * This function runs on plugin activation. It checks to make sure the
- * Genesis Framework is active. If not, it deactivates itself.
+ * Genesis Framework is active. If not, it deactivates the plugin.
  *
  * @since 1.0
  */
