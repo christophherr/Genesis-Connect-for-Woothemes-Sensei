@@ -68,4 +68,8 @@ This version adds a POT file for translations.
 
 = 1.0.1 =
 
+<<<<<<< HEAD
 This version loads the textdomain to enable translations.
+=======
+This version loads the textdomain to enable translations.
+>>>>>>> Added POT file
