@@ -28,7 +28,7 @@ This plugin will only work (i.e. activate) with the Genesis Framework and its ch
 
 Alternatively, you can
 
-1. Click on 'Add new" in the 'Plugins' menu
+1. Click on 'Add new' in the 'Plugins' menu
 2. Type (or copy and paste) the name of this plugin into the search box
 3. Click on 'Install Now'
 
