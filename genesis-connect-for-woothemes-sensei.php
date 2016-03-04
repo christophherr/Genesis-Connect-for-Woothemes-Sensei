@@ -139,11 +139,24 @@ function gcfws_force_content_sidebar_layout() {
 add_action( 'genesis_meta', 'gcfws_force_content_sidebar_layout' );
 
 /**
- * Remove the default Sensei wrappers
+ * Remove the default Woothemes Sensei wrappers.
+ * Checks which version of Woothemes Sensei is running
+ * and removes the wrappers accordingly.
+ * @since 1.1
  */
-global $woothemes_sensei;
-remove_action( 'sensei_before_main_content', array( $woothemes_sensei->frontend, 'sensei_output_content_wrapper' ), 10 );
-remove_action( 'sensei_after_main_content', array( $woothemes_sensei->frontend, 'sensei_output_content_wrapper_end' ), 10 );
+function gcfws_remove_default_sensei_wrappers() {
+
+	if ( Sensei()->version >= '1.9.0' ) {
+		remove_action( 'sensei_before_main_content', array( Sensei()->frontend, 'sensei_output_content_wrapper' ), 10 );
+		remove_action( 'sensei_after_main_content', array( Sensei()->frontend, 'sensei_output_content_wrapper_end' ), 10 );
+		return;
+	}
+	global $woothemes_sensei;
+	remove_action( 'sensei_before_main_content', array( $woothemes_sensei->frontend, 'sensei_output_content_wrapper' ), 10 );
+	remove_action( 'sensei_after_main_content', array( $woothemes_sensei->frontend, 'sensei_output_content_wrapper_end' ), 10 );
+}
+
+add_action( 'genesis_meta', 'gcfws_remove_default_sensei_wrappers' );
 
 
 // Add custom Sensei content wrappers for Genesis.
