@@ -127,6 +127,18 @@ function gcfws_sensei_support() {
 add_action( 'after_setup_theme', 'gcfws_sensei_support' );
 
 /**
+ * Force content-sidebar layout on Woothemes Sensei Course, Lesson and Question pages.
+ * @since 1.1
+ */
+function gcfws_force_content_sidebar_layout() {
+	if ( is_singular( array( 'course', 'lesson', 'question' ) ) ) {
+			add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_content_sidebar' );
+	}
+}
+
+add_action( 'genesis_meta', 'gcfws_force_content_sidebar_layout' );
+
+/**
  * Remove the default Sensei wrappers
  */
 global $woothemes_sensei;
