@@ -104,21 +104,6 @@ function gcfws_admin_notice_message_sensei() {
 }
 
 /**
- * Error message if you're not using Woothemes Sensei.
- *
- * @since 1.1
- */
-function gcfws_admin_notice_message_sensei() {
-	$error = sprintf( _e( 'Sorry, you can\'t use the Genesis Connect for Woothemes Sensei Plugin unless the <a href="%s">Sensei Plugin</a> is active. The plugin has been deactivated.', 'gcfws' ), 'http://senseilms.com' );
-
-	echo '<div class="error"><p>' . $error . '</p></div>';
-
-	if ( isset( $_GET['activate'] ) ) {
-		unset( $_GET['activate'] );
-	}
-}
-
-/**
  * Load plugin textdomain.
  *
  * @since 1.0.1

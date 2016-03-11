@@ -1,4 +1,4 @@
-=== Genesis Connect for Woothemes Sensei ===
+﻿=== Genesis Connect for Woothemes Sensei ===
 
 Contributors: christophherr
 Donate link: https://www.christophherr.com/donate/
@@ -22,7 +22,8 @@ In other words, if you are not trying to integrate the Woothemes Sensei plugin w
 This plugin will only work (i.e. activate) if the Genesis Framework and its child themes and Woothemes Sensei are activated.
 
 Version 1.1.0 forces a content-sidebar layout on course, lesson and question posts to avoid the sidebar showing underneath the main content.
-To remove this new feature, add <code>remove_action( 'genesis_meta', 'gcfws_force_content_sidebar_layout' );</code> to your functions.php.
+To change this new feature, you have to remove what the plugin is doing by adding <code>remove_action( 'genesis_meta', 'gcfws_force_content_sidebar_layout' );</code> to your functions.php.
+Then add code for the layout that you would prefer. The < href="https://my.studiopress.com/snippets/admin-management/">Studiopress Snippets</a> should help you get started.  
 
 == Installation ==
 
