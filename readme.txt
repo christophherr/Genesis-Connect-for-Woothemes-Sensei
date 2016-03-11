@@ -23,8 +23,9 @@ This plugin will only work (i.e. activate) if the Genesis Framework and its chil
 
 Version 1.1.0 forces a content-sidebar layout on course, lesson and question posts to avoid the sidebar showing underneath the main content.
 
-To change this new feature, you have to remove what the plugin is doing by adding <code>remove_action( 'genesis_meta', 'gcfws_force_content_sidebar_layout' );</code> to your functions.php.
-Then add code for the layout that you would prefer. The < href="https://my.studiopress.com/snippets/admin-management/">Studiopress Snippets</a> should help you get started.  
+To change this new feature, you have to use a remove_action on the code the plugin is adding.
+Add <code>remove_action( 'genesis_meta', 'gcfws_force_content_sidebar_layout' );</code> to your functions.php.
+If you want to use a different layout, the <href="https://my.studiopress.com/snippets/admin-management/">Studiopress Snippets</a> should help to get you started.  
 
 == Installation ==
 
