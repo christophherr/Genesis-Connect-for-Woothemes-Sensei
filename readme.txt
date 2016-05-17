@@ -13,9 +13,9 @@ This plugin integrates the Genesis Framework from Studiopress with the Woothemes
 
 == Description ==
 
-The base for this plugin is code taken from <a href="https://support.woothemes.com/hc/en-us/articles/204428855-StudioPress-Genesis>Woothemes support</a>.
+The base for this plugin is code taken from [WooThemes Support](https://support.woothemes.com/hc/en-us/articles/204428855-StudioPress-Genesis).
 
-You will need the <a href="http://www.woothemes.com/products/sensei/">Woothemes Sensei</a> plugin and the <a href="http://www.studiopress.com>Genesis Framework</a> from Studiopress and/or one of its child themes.
+You will need the [WooThemes Sensei](http://www.woothemes.com/products/sensei/) plugin and the [Genesis Framework from Studiopress](http://www.studiopress.com) and/or one of its child themes.
 
 In other words, if you are not trying to integrate the Woothemes Sensei plugin with the Genesis Framework and/or one of its child themes, this plugin is pretty much useless for you...
 
@@ -25,7 +25,7 @@ Version 1.1.0 forces a content-sidebar layout on course, lesson and question pos
 
 To change this new feature, you have to use a remove_action on the code the plugin is adding.
 Add <code>remove_action( 'genesis_meta', 'gcfws_force_content_sidebar_layout' );</code> to your functions.php.
-If you want to use a different layout, the <href="https://my.studiopress.com/snippets/admin-management/">Studiopress Snippets</a> should help to get you started.  
+If you want to use a different layout, the [Studiopress Snippets](https://my.studiopress.com/snippets/admin-management/) should help to get you started.  
 
 == Installation ==
 
@@ -75,7 +75,7 @@ There are no settings and no settings screen. You would have to change the code 
 = 1.0.3 =
 
 * Corrected oversight in the original code. First closing tag should be `</main>` instead of `</div>`
-see: <a href="http://cobaltapps.com/forum/forum/main-category/main-forum/81542-woo-sensei?p=82210#post82210">Cobalt Apps forum</a>
+see: [Cobalt Apps Forum] (http://cobaltapps.com/forum/forum/main-category/main-forum/81542-woo-sensei?p=82210#post82210)
 
 = 1.0.2 =
 
