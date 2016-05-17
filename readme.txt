@@ -93,7 +93,7 @@ see: [Cobalt Apps Forum] (http://cobaltapps.com/forum/forum/main-category/main-f
 
 = 1.1.0 = 
 This version adds a version check for Woothemes Sensei to use the appropriate array when removing the standard Sensei wrappers.
-Version 1.1.0 also forces a content-sidebar layout on single course, lesston and question posts to avoid the sidebar showing underneath the main content. 
+Version 1.1.0 also forces a content-sidebar layout on single course, lesson and question posts to avoid the sidebar showing underneath the main content. 
 Please refer to the readme.txt if you want to remove this feature.
 Woothemes Sensei has to be already active before the plugin will activate.
 
