@@ -4,7 +4,7 @@ Contributors: christophherr
 Donate link: https://www.christophherr.com/donate/
 Tags: woothemes sensei, woothemes, genesis, genesis connect, studiopress
 Requires at least: 4.1
-Tested up to: 4.5
+Tested up to: 4.6
 Stable tag: 1.1.0
 License: GPL-2.0+
 License URI: http://www.gnu.org/licenses/gpl-2.0.txt
