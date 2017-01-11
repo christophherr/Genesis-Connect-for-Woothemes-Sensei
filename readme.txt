@@ -4,7 +4,7 @@ Contributors: christophherr
 Donate link: https://www.christophherr.com/donate/
 Tags: woothemes sensei, woothemes, genesis, genesis connect, studiopress
 Requires at least: 4.1
-Tested up to: 4.6
+Tested up to: 4.7.1
 Stable tag: 1.1.0
 License: GPL-2.0+
 License URI: http://www.gnu.org/licenses/gpl-2.0.txt
@@ -15,7 +15,7 @@ This plugin integrates the Genesis Framework from Studiopress with the Woothemes
 
 The base for this plugin is code taken from [WooThemes Support](https://support.woothemes.com/hc/en-us/articles/204428855-StudioPress-Genesis).
 
-You will need the [WooThemes Sensei](http://www.woothemes.com/products/sensei/) plugin and the [Genesis Framework from Studiopress](http://www.studiopress.com) and/or one of its child themes.
+You will need the [WooThemes Sensei](https://woocommerce.com/products/sensei/) plugin and the [Genesis Framework from Studiopress](https://www.studiopress.com) and/or one of its child themes.
 
 In other words, if you are not trying to integrate the Woothemes Sensei plugin with the Genesis Framework and/or one of its child themes, this plugin is pretty much useless for you...
 
