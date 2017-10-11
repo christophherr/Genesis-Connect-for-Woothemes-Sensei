@@ -4,8 +4,8 @@ Contributors: christophherr
 Donate link: https://www.christophherr.com/donate/
 Tags: woothemes sensei, woothemes, genesis, genesis connect, studiopress
 Requires at least: 4.1
-Tested up to: 4.6
-Stable tag: 1.1.0
+Tested up to: 4.8
+Stable tag: 1.1.1
 License: GPL-2.0+
 License URI: http://www.gnu.org/licenses/gpl-2.0.txt
 
@@ -15,7 +15,7 @@ This plugin integrates the Genesis Framework from Studiopress with the Woothemes
 
 The base for this plugin is code taken from [WooThemes Support](https://support.woothemes.com/hc/en-us/articles/204428855-StudioPress-Genesis).
 
-You will need the [WooThemes Sensei](http://www.woothemes.com/products/sensei/) plugin and the [Genesis Framework from Studiopress](http://www.studiopress.com) and/or one of its child themes.
+You will need the [WooThemes Sensei](https://woocommerce.com/products/sensei/) plugin and the [Genesis Framework from Studiopress](https://www.studiopress.com) and/or one of its child themes.
 
 In other words, if you are not trying to integrate the Woothemes Sensei plugin with the Genesis Framework and/or one of its child themes, this plugin is pretty much useless for you...
 
@@ -25,7 +25,7 @@ Version 1.1.0 forces a content-sidebar layout on course, lesson and question pos
 
 To change this new feature, you have to use a remove_action on the code the plugin is adding.
 Add <code>remove_action( 'genesis_meta', 'gcfws_force_content_sidebar_layout' );</code> to your functions.php.
-If you want to use a different layout, the [Studiopress Snippets](https://my.studiopress.com/snippets/admin-management/) should help to get you started.  
+If you want to use a different layout, the [Studiopress Snippets](https://my.studiopress.com/snippets/admin-management/) should help to get you started.
 
 == Installation ==
 
@@ -62,15 +62,20 @@ There are no settings and no settings screen. You would have to change the code 
 
 == Changelog ==
 
+= 1.1.1 =
+
+* Better Code Standards.
+* Removes unnecessary code.
+* Updates Readme Urls.
+
 = 1.1.0 =
 
 * Adds check to only activate if Woothemes Sensei is already active.
-* Forces a content-sidebar layout on single course, lesson and question posts. 
+* Forces a content-sidebar layout on single course, lesson and question posts.
   To change this behaviour add <code>remove_action( 'genesis_meta', 'gcfws_force_content_sidebar_layout' );</code> to your functions.php.
-* After Woothemes Sensei changed their code base dramatically in the 1.9 update, 
+* After Woothemes Sensei changed their code base dramatically in the 1.9 update,
   the previous method of removing the sensei wrappers started to throw error messages.
   This update introduces a version check to use the appropriate array for removing the sensei wrappers.
-  
 
 = 1.0.3 =
 
@@ -91,9 +96,14 @@ see: [Cobalt Apps Forum] (http://cobaltapps.com/forum/forum/main-category/main-f
 
 == Upgrade Notice ==
 
-= 1.1.0 = 
+= 1.1.1 =
+
+This version removes unnecessary code, follows WordPress Coding Standards better and updates links in the Readme.
+
+= 1.1.0 =
+
 This version adds a version check for Woothemes Sensei to use the appropriate array when removing the standard Sensei wrappers.
-Version 1.1.0 also forces a content-sidebar layout on single course, lesson and question posts to avoid the sidebar showing underneath the main content. 
+Version 1.1.0 also forces a content-sidebar layout on single course, lesston and question posts to avoid the sidebar showing underneath the main content.
 Please refer to the readme.txt if you want to remove this feature.
 Woothemes Sensei has to be already active before the plugin will activate.
 

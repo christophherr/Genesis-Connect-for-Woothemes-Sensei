@@ -5,7 +5,7 @@
  * Description: Plugin wrapper to easily integrate the Woothemes Sensei plugin with the Genesis Framework. This plugin will only work with the Genesis Framework and its child themes.
  * Author:      Christoph Herr
  * Author URI:	http://www.christophherr.com
- * Version:     1.1.0
+ * Version:     1.1.1
  * Text Domain: genesis-connect-for-woothemes-sensei
  * Domain Path: /languages
  * License:     GPL-2.0+
@@ -13,7 +13,7 @@
  *
  * @package   GenesisConnectforWoothemesSensei
  * @author    Christoph Herr
- * @version   1.1.0
+ * @version   1.1.1
  * @license   GPL-2.0+
  *
  * Genesis Connect for Woothemes Sensei is free software: you can redistribute it and/or modify
@@ -46,11 +46,6 @@ function gcfws_activation() {
 		// Deactivate.
 		deactivate_plugins( plugin_basename( __FILE__ ) );
 		add_action( 'admin_notices', 'gcfws_admin_notice_message' );
-	}
-	if ( ! class_exists( ('Sensei_Main' ) || ( 'WooThemes_Sensei' ) ) ) {
-		// Deactivate.
-		deactivate_plugins( plugin_basename( __FILE__ ) );
-		add_action( 'admin_notices', 'gcfws_admin_notice_message_sensei' );
 	}
 }
 
@@ -89,21 +84,6 @@ function gcfws_admin_notice_message() {
 }
 
 /**
- * Error message if you're not using Woothemes Sensei.
- *
- * @since 1.1
- */
-function gcfws_admin_notice_message_sensei() {
-	$error = sprintf( _e( 'Sorry, you can\'t use the Genesis Connect for Woothemes Sensei Plugin unless the <a href="%s">Sensei Plugin</a> is active. The plugin has been deactivated.', 'gcfws' ), 'http://senseilms.com' );
-
-	echo '<div class="error"><p>' . $error . '</p></div>';
-
-	if ( isset( $_GET['activate'] ) ) {
-		unset( $_GET['activate'] );
-	}
-}
-
-/**
  * Load plugin textdomain.
  *
  * @since 1.0.1
@@ -128,6 +108,7 @@ add_action( 'after_setup_theme', 'gcfws_sensei_support' );
 
 /**
  * Force content-sidebar layout on Woothemes Sensei Course, Lesson and Question pages.
+ *
  * @since 1.1
  */
 function gcfws_force_content_sidebar_layout() {
@@ -142,6 +123,7 @@ add_action( 'genesis_meta', 'gcfws_force_content_sidebar_layout' );
  * Remove the default Woothemes Sensei wrappers.
  * Checks which version of Woothemes Sensei is running
  * and removes the wrappers accordingly.
+ *
  * @since 1.1
  */
 function gcfws_remove_default_sensei_wrappers() {
