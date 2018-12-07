@@ -3,8 +3,8 @@
 Contributors: christophherr
 Donate link: https://www.christophherr.com/donate/
 Tags: automattic sensei, sensei, genesis, genesis connect, studiopress, woocommerce sensei
-Requires at least: 4.1
-Tested up to: 4.9
+Requires at least: 4.8
+Tested up to: 5.0
 Stable tag: 1.2.0
 License: GPL-2.0+
 License URI: http://www.gnu.org/licenses/gpl-2.0.txt
