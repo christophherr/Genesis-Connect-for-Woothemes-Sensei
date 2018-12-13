@@ -91,9 +91,9 @@ function gcfws_plugin_deactivate() {
  */
 function gcfws_admin_notice_message() {
 	$error = sprintf(
-		// translators: Link to the Studiopress website.
+		// translators: Link to the StudioPress website.
 		__( 'Sorry, you can\'t use the Genesis Connect for Woothemes Sensei Plugin unless the <a href="%s">Genesis Framework</a> is active. The plugin has been deactivated.', 'gcfws' ),
-		'http://www.studiopress.com'
+		'https://www.studiopress.com'
 	);
 
 	printf( '<div class="error"><p>%s</p></div>', $error );

@@ -9,12 +9,12 @@ Stable tag: 1.2.0
 License: GPL-2.0+
 License URI: http://www.gnu.org/licenses/gpl-2.0.txt
 
-This plugin integrates the Genesis Framework from Studiopress with the Sensei plugin.
+This plugin integrates the Genesis Framework from StudioPress with the Sensei plugin.
 
 == Description ==
 The plugin expands on the [Sensei Documentation](https://docs.woocommerce.com/document/sensei-and-theme-compatibility/) about adding theme compatibility.
 
-You will need the [Sensei](https://woocommerce.com/products/sensei/) plugin and the [Genesis Framework from Studiopress](https://www.studiopress.com) and/or one of its child themes.
+You will need the [Sensei](https://woocommerce.com/products/sensei/) plugin and the [Genesis Framework from StudioPress](https://www.studiopress.com) and/or one of its child themes.
 
 In other words, if you are not trying to integrate the Sensei plugin with the Genesis Framework and/or one of its child themes, you don't need or want this plugin.
 

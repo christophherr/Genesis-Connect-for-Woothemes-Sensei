@@ -9,13 +9,13 @@ Stable tag: 1.2.0
 License: GPL-2.0+
 License URI: http://www.gnu.org/licenses/gpl-2.0.txt
 
-This plugin integrates the Genesis Framework from Studiopress with the Sensei plugin.
+This plugin integrates the Genesis Framework from StudioPress with the Sensei plugin.
 
 ## Description
 
 The plugin expands on the [Sensei Documentation](https://docs.woocommerce.com/document/sensei-and-theme-compatibility/) about adding theme compatibility.
 
-You will need the [Sensei](https://woocommerce.com/products/sensei/) plugin and the [Genesis Framework from Studiopress](https://www.studiopress.com) and/or one of its child themes.
+You will need the [Sensei](https://woocommerce.com/products/sensei/) plugin and the [Genesis Framework from StudioPress](https://www.studiopress.com) and/or one of its child themes.
 
 In other words, if you are not trying to integrate the Sensei plugin with the Genesis Framework and/or one of its child themes, you don't need or want this plugin.
 
@@ -23,12 +23,11 @@ This plugin will only work (i.e. activate) if the Genesis Framework and its chil
 
 Version 1.1.0 forces a content-sidebar layout on course, lesson and question posts to avoid the sidebar showing underneath the main content.
 
-Version 1.2.0 adds the Genesis Layout options to course, lesson and question posts and archives and the module taxonomy allowing better control about the layout options.
-For backwards compatibility, the single posts are still set to a content-sidebar layout but this can be overwritten by the Genesis Layout options.
+Version 1.2.0 adds the Genesis Layout options to course, lesson and question posts and archives and the module taxonomy allowing better control about the layout options. For backwards-compatibiliy, The single posts are still set to a content-sidebar layout but this setting can be overwritten by the Genesis Layout options.
 
 It should not be necessary to remove the formerly forced content-sidebar layout on single posts with
 
-<code>remove_action( 'genesis_meta', 'gcfws_force_content_sidebar_layout_on_cpt_posts' );</code>
+* <code>remove_action( 'genesis_meta', 'gcfws_force_content_sidebar_layout_on_cpt_posts' );</code>
 
 in your functions.php anymore. Please use the Genesis Layout options instead.
 
@@ -55,14 +54,12 @@ Yes and no. Technically, it does.
 However, depending on other factors such as the individual theme's styling and layout, the output may be unexpected, and require some tweaking.
 
 Case in point, if the full-width layout is selected in the Genesis settings, lessons, course and question posts are showing a sidebar underneath the main content.
-
 Version 1.1.0 forced a content-sidebar layout on single course, lesson and questions.
 Since Version 1.2.0 the Genesis Layout options can be used to alter the appearance.
 
 ### Are there any settings?
 
 You simply activate the plugin and the necessary wrappers are inserted into your Genesis child theme.
-
 Since version 1.2.0, you can choose the layouts of your courses, lessons, questions and modules with the Genesis Layout options.
 
 ### How can I change how the plugin works?
